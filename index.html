@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Quiz Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1 id="welcome">Welcome to Amazing Quiz Site!</h1>
+        <div id="credentials" class="form">
+            <input type="text" id="username" placeholder="Enter your name" required>
+            <button onclick="startQuiz()">Start Quiz</button>
+        </div>
+        <div id="quiz">
+            <p id="question"></p>
+            <div id="options"></div>
+            <button id="next" onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
